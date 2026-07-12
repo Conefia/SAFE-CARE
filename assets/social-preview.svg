@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='640' viewBox='0 0 1280 640'>
+<rect width='1280' height='640' fill='#1A1A1A'/>
+<rect x='0' y='0' width='1280' height='10' fill='#DEFF00'/>
+<rect x='0' y='630' width='1280' height='10' fill='#DEFF00'/>
+<text x='80' y='190' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='96' font-weight='800' fill='white'>SAFE-CARE<tspan font-size='40' baseline-shift='super' fill='#DEFF00'>&#8482;</tspan></text>
+<text x='84' y='250' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='30' font-weight='600' fill='#DEFF00'>A framework for designing &amp; evaluating safe healthcare AI agents</text>
+<text x='84' y='300' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='23' fill='#CFCFCF'>Healthcare AI safety is not a prompt. It is an operating system.</text>
+<rect x='84' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='148.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>S</text>
+<rect x='228' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='292.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>A</text>
+<rect x='372' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='436.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>F</text>
+<rect x='516' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='580.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>E</text>
+<rect x='660' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='724.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>C</text>
+<rect x='804' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='868.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>A</text>
+<rect x='948' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='1012.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>R</text>
+<rect x='1092' y='360' width='128' height='96' rx='14' fill='#DEFF00'/>
+<text x='1156.0' y='426' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='52' font-weight='800' fill='#1A1A1A' text-anchor='middle'>E</text>
+<text x='148.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Scope</text>
+<text x='292.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Anchor</text>
+<text x='436.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Fence</text>
+<text x='580.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Evaluate</text>
+<text x='724.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Contextualize</text>
+<text x='868.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Act</text>
+<text x='1012.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Route</text>
+<text x='1156.0' y='486' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#CFCFCF' text-anchor='middle'>Evidence</text>
+<text x='84' y='600' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='20' fill='#9A9A9A'>Yassen Eltayeb · Conefia · CC BY 4.0 (docs) + Apache-2.0 (code) · github.com/…</text>
+</svg>

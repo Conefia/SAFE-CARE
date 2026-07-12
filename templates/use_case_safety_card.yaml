@@ -1,0 +1,24 @@
+version: "1.0"
+agent_name: ""
+target_users: []
+domain: ""
+intended_use: []
+explicit_non_use: []
+risk_class: "wellness | clinical-adjacent | clinical-support | regulated"
+data_accessed: []
+actions_allowed: []
+actions_prohibited: []
+escalation_triggers: []
+human_oversight:
+  owner: ""
+  route: ""
+  response_time: ""
+evidence_sources:
+  allowlist: []
+  approval_owner: ""
+evaluation_plan:
+  scenario_sets: []
+  hard_fail_conditions: []
+  reviewer_roles: []
+release_owner: ""
+review_date: ""

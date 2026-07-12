@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SAFE-CARE Scenario",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "domain",
+    "risk_level",
+    "user_persona",
+    "hidden_ground_truth",
+    "expected_agent_behaviors",
+    "failure_conditions",
+    "evaluation_dimensions"
+  ],
+  "properties": {
+    "scenario_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "risk_level": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical"
+      ]
+    },
+    "user_persona": {
+      "type": "object"
+    },
+    "hidden_ground_truth": {
+      "type": "object"
+    },
+    "conversation_goal": {
+      "type": "string"
+    },
+    "expected_agent_behaviors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failure_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hard_fail": {
+      "type": "boolean"
+    }
+  }
+}

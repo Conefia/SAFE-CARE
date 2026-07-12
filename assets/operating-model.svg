@@ -1,0 +1,62 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='660' viewBox='0 0 1000 660'>
+<rect width='1000' height='660' fill='white'/>
+<rect x='0' y='0' width='1000' height='6' fill='#DEFF00'/>
+<text x='40' y='58' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='34' font-weight='700' fill='#1A1A1A'>SAFE-CARE&#8482; — the operating model</text>
+<text x='40' y='86' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='17' fill='#5A5A5A'>Eight principles for designing and evaluating safe healthcare AI agents</text>
+<rect x='40' y='110' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='40' y='110' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='86' cy='150' r='22' fill='#2B2B2B'/>
+<text x='86' y='158' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>S</text>
+<text x='122' y='148' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Scope</text>
+<text x='122' y='176' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Define intended use, prohibited</text>
+<text x='122' y='196' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>actions, claims, escalation boundary.</text>
+<rect x='511' y='110' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='511' y='110' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='557' cy='150' r='22' fill='#2B2B2B'/>
+<text x='557' y='158' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>A</text>
+<text x='593' y='148' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Anchor</text>
+<text x='593' y='176' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Ground claims in approved</text>
+<text x='593' y='196' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>evidence; keep support traceable.</text>
+<rect x='40' y='246' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='40' y='246' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='86' cy='286' r='22' fill='#2B2B2B'/>
+<text x='86' y='294' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>F</text>
+<text x='122' y='284' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Fence</text>
+<text x='122' y='312' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Input, output, retrieval, tool,</text>
+<text x='122' y='332' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>memory &amp; monitoring guardrails.</text>
+<rect x='511' y='246' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='511' y='246' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='557' cy='286' r='22' fill='#2B2B2B'/>
+<text x='557' y='294' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>E</text>
+<text x='593' y='284' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Evaluate</text>
+<text x='593' y='312' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Simulations, ablations, AI judges,</text>
+<text x='593' y='332' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>human calibration, regression tests.</text>
+<rect x='40' y='382' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='40' y='382' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='86' cy='422' r='22' fill='#2B2B2B'/>
+<text x='86' y='430' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>C</text>
+<text x='122' y='420' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Contextualize</text>
+<text x='122' y='448' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Personalize from confirmed,</text>
+<text x='122' y='468' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>time-stamped, correctable context.</text>
+<rect x='511' y='382' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='511' y='382' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='557' cy='422' r='22' fill='#2B2B2B'/>
+<text x='557' y='430' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>A</text>
+<text x='593' y='420' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Act</text>
+<text x='593' y='448' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Permissioned tools with</text>
+<text x='593' y='468' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>confirmation, audit logs, rollback.</text>
+<rect x='40' y='518' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='40' y='518' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='86' cy='558' r='22' fill='#2B2B2B'/>
+<text x='86' y='566' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>R</text>
+<text x='122' y='556' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Route</text>
+<text x='122' y='584' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Escalate urgent, uncertain, severe</text>
+<text x='122' y='604' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>or regulated cases to humans.</text>
+<rect x='511' y='518' width='449' height='118' rx='12' fill='#F3F3F1' stroke='#D0D0CE'/>
+<rect x='511' y='518' width='6' height='118' rx='3' fill='#DEFF00'/>
+<circle cx='557' cy='558' r='22' fill='#2B2B2B'/>
+<text x='557' y='566' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='24' font-weight='700' fill='#DEFF00' text-anchor='middle'>E</text>
+<text x='593' y='556' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' font-weight='700' fill='#1A1A1A'>Evidence</text>
+<text x='593' y='584' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>Safety case, registries, release</text>
+<text x='593' y='604' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' fill='#5A5A5A'>report, production monitoring.</text>
+</svg>

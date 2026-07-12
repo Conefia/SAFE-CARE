@@ -1,0 +1,30 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='560' viewBox='0 0 1000 560'>
+<rect width='1000' height='560' fill='white'/><rect x='0' y='0' width='1000' height='6' fill='#DEFF00'/>
+<text x='40' y='56' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='32' font-weight='700' fill='#1A1A1A'>The minimum safe agent</text>
+<text x='40' y='84' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16.5' fill='#5A5A5A'>Every request flows through safety gateways; risk routes to a human; everything is logged.</text>
+<rect x='40' y='150' width='112' height='88' rx='10' fill='white' stroke='#D0D0CE'/><text x='96.0' y='198.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>User</text>
+<line x1='152' y1='194.0' x2='174' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='174,194.0 166,189.0 166,199.0' fill='#2B2B2B'/>
+<rect x='174' y='150' width='112' height='88' rx='10' fill='#DEFF00' stroke='#D0D0CE'/><text x='230.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Input safety</text><text x='230.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>gateway</text>
+<line x1='286' y1='194.0' x2='308' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='308,194.0 300,189.0 300,199.0' fill='#2B2B2B'/>
+<rect x='308' y='150' width='112' height='88' rx='10' fill='white' stroke='#D0D0CE'/><text x='364.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Evidence &amp;</text><text x='364.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>context</text>
+<line x1='420' y1='194.0' x2='442' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='442,194.0 434,189.0 434,199.0' fill='#2B2B2B'/>
+<rect x='442' y='150' width='112' height='88' rx='10' fill='#2B2B2B' stroke='#D0D0CE'/><text x='498.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='white' text-anchor='middle'>Orchestrator</text><text x='498.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='white' text-anchor='middle'>(reason/plan)</text>
+<line x1='554' y1='194.0' x2='576' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='576,194.0 568,189.0 568,199.0' fill='#2B2B2B'/>
+<rect x='576' y='150' width='112' height='88' rx='10' fill='white' stroke='#D0D0CE'/><text x='632.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Governed</text><text x='632.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>tools</text>
+<line x1='688' y1='194.0' x2='710' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='710,194.0 702,189.0 702,199.0' fill='#2B2B2B'/>
+<rect x='710' y='150' width='112' height='88' rx='10' fill='#DEFF00' stroke='#D0D0CE'/><text x='766.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Output safety</text><text x='766.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>gateway</text>
+<line x1='822' y1='194.0' x2='844' y2='194.0' stroke='#2B2B2B' stroke-width='2'/>
+<polygon points='844,194.0 836,189.0 836,199.0' fill='#2B2B2B'/>
+<rect x='844' y='150' width='112' height='88' rx='10' fill='white' stroke='#D0D0CE'/><text x='900.0' y='188.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Response +</text><text x='900.0' y='208.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>citations</text>
+<line x1='498.0' y1='238' x2='498.0' y2='308' stroke='#1A1A1A' stroke-width='2.5' stroke-dasharray='6 5'/>
+<polygon points='498.0,308 493.0,298 503.0,298' fill='#1A1A1A'/>
+<rect x='403.0' y='308' width='190' height='54' rx='10' fill='#DEFF00' stroke='#1A1A1A'/><text x='498.0' y='339.0' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14.5' font-weight='600' fill='#1A1A1A' text-anchor='middle'>Escalate risk → human / clinician</text>
+<rect x='40' y='388' width='920' height='52' rx='10' fill='#2B2B2B'/>
+<text x='500.0' y='420' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='16' font-weight='700' fill='#DEFF00' text-anchor='middle'>Governance &amp; monitoring: safety cards, registries, audit logs, release gates, production dashboards</text>
+<text x='40' y='483' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='13.5' fill='#5A5A5A'>Layers: model · evidence · safety · tools · memory · UX · evaluation · governance</text>
+</svg>

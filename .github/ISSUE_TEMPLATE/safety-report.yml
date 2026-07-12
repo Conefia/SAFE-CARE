@@ -1,0 +1,41 @@
+name: Safety or security report
+description: Report a reproducible issue involving healthcare-agent safety, privacy, evidence, tools, or escalation.
+title: "[Safety] "
+labels: ["safety-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include personal health information, real patient conversations, credentials, or proprietary client material. For sensitive disclosures, email dev@conefia.com instead."
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Potential severity
+      options: ["S0 - Critical", "S1 - High", "S2 - Medium", "S3 - Low", "Unknown"]
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Synthetic reproduction scenario
+      description: Describe the user context, hidden ground truth, and conversation flow without real personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected safe behavior
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Data confirmation
+      options:
+        - label: "This report contains no personal health information, credentials, or proprietary client data."
+          required: true

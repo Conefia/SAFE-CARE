@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Docs-CC--BY--4.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Docs license CC BY 4.0">
   <img src="https://img.shields.io/badge/Code-Apache--2.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Code license Apache 2.0">
   <img src="https://img.shields.io/badge/version-1.0.0-2B2B2B?style=flat-square" alt="Version 1.0.0">
-  <img src="https://img.shields.io/badge/DOI-pending%20(Zenodo)-2B2B2B?style=flat-square" alt="DOI pending">
+  <a href="https://doi.org/10.5281/zenodo.21330159"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21330159-2B2B2B?style=flat-square" alt="DOI"></a>
   <img src="https://img.shields.io/badge/Cite-CITATION.cff-2B2B2B?style=flat-square" alt="Cite this">
   <img src="https://img.shields.io/badge/PRs-welcome-2B2B2B?style=flat-square" alt="PRs welcome">
 </p>
@@ -109,7 +109,7 @@ The design case study is **anonymized and generalized**. This repository does **
 
 If you use SAFE-CARE, please cite it (see [`CITATION.cff`](CITATION.cff)):
 
-> Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents.* Conefia. DOI: *[Zenodo DOI — added at release]*.
+> Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents.* Conefia. DOI: [10.5281/zenodo.21330159](https://doi.org/10.5281/zenodo.21330159).
 
 ## License
 
@@ -122,4 +122,4 @@ SAFE-CARE&#8482; is a trademark of Yassen Eltayeb / Conefia. © 2026 Yassen Elta
 
 Created and maintained by **[Yassen Eltayeb](mailto:dev@conefia.com)**, founder of **Conefia** — applied, safe AI for healthcare. Contributions welcome; see [`CONTRIBUTING.md`](CONTRIBUTING.md) and report safety concerns via [`SECURITY.md`](SECURITY.md).
 
-> **Disclaimer.** Public framework for educational and engineering use. It is **not** medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
+> **Disclaimer.** Public framework for educational and engineering us

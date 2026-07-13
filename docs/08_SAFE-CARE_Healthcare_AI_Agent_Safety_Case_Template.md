@@ -66,9 +66,9 @@ Write every claim as: “For [intended use and population], configuration [versi
 
 ## References
 
-[Case Study] Design case study — a conversational AI companion for menopause and perimenopause support (author’s prior applied work).
+[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In SAFE-CARE public release repository, v1.0. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330842
 
-[Conference Outline] Conference talk outline — “Building Safe Conversational AI Agents for Healthcare.”
+[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In SAFE-CARE public release repository, v1.0. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330842
 
 [WHO 2021] World Health Organization. Ethics and governance of artificial intelligence for health. 2021. https://www.who.int/publications/i/item/9789240029200
 
@@ -88,7 +88,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Author:** Yassen Eltayeb — Conefia.
 - **Version:** v1.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
-- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: [Zenodo DOI].
+- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330159.
 - **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.
 - **Copyright:** © 2026 Yassen Eltayeb / Conefia.
 

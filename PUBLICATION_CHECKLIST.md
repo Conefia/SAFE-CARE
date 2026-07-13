@@ -13,11 +13,11 @@
 
 - [ ] Obtain written client approval for publication of the anonymized, generalized framework.
 - [ ] Create or choose the public GitHub repository.
-- [ ] Replace `[GitHub repository URL]` in `CITATION.cff` and repository documentation.
+- [x] Replace `[GitHub repository URL]` in `CITATION.cff` and repository documentation. → https://github.com/Conefia/safe-care
 - [ ] Enable the GitHub–Zenodo integration.
-- [ ] Create GitHub release `v1.0.0` and mint the Zenodo DOI.
-- [ ] Replace `[Zenodo DOI]` in all documents, Markdown, `CITATION.cff`, and citation metadata.
-- [ ] Re-export DOCX/PDF assets after inserting the DOI.
+- [x] Create GitHub release `v1.0.0` and mint the Zenodo DOI. → framework 10.5281/zenodo.21330159; repository 10.5281/zenodo.21330842
+- [x] Replace `[Zenodo DOI]` in all documents, Markdown, `CITATION.cff`, and citation metadata.
+- [x] Re-export DOCX/PDF assets after inserting the DOI.
 - [ ] Record the immutable release URL and DOI for the petition exhibit.
 
 ## Suggested one-line client approval

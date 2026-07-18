@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1 — July 2026
+
+- Added NIST AI 600-1 (Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, U.S. Dept. of Commerce / NIST, July 2024, https://doi.org/10.6028/NIST.AI.600-1) to the references and standards grounding.
+- Version bumped to v1.1 across documents, README, and CITATION.cff.
+- Note: cutting a new GitHub release archives v1.1 on Zenodo and mints a new version DOI; update the "How to cite" DOI to the v1.1 version DOI after release (the concept DOI continues to resolve to the latest version).
+
 ## v1.0 — July 2026
 
 - Public-release edition authored by Yassen Eltayeb, Conefia.

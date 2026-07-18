@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Docs-CC--BY--4.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Docs license CC BY 4.0">
   <img src="https://img.shields.io/badge/Code-Apache--2.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Code license Apache 2.0">
-  <img src="https://img.shields.io/badge/version-1.0.0-2B2B2B?style=flat-square" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.1.0-2B2B2B?style=flat-square" alt="Version 1.1.0">
   <a href="https://doi.org/10.5281/zenodo.21330159"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21330159-2B2B2B?style=flat-square" alt="DOI"></a>
   <img src="https://img.shields.io/badge/Cite-CITATION.cff-2B2B2B?style=flat-square" alt="Cite this">
   <img src="https://img.shields.io/badge/PRs-welcome-2B2B2B?style=flat-square" alt="PRs welcome">

@@ -2,7 +2,7 @@
 
 *A structured, evidence-backed argument that an agent is safe enough for its intended use*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.0 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
 
 **Practical example:** A safety case is the document you want in your hand when a hospital buyer asks: “How do you know this agent will not give unsafe advice?” It connects claims, risks, controls, evidence, and open issues.
 
@@ -76,6 +76,8 @@ Write every claim as: “For [intended use and population], configuration [versi
 
 [NIST AI RMF] National Institute of Standards and Technology. AI Risk Management Framework. https://www.nist.gov/itl/ai-risk-management-framework
 
+[NIST AI 600-1] National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1). U.S. Department of Commerce, July 2024. https://doi.org/10.6028/NIST.AI.600-1
+
 [FDA GMLP] U.S. Food and Drug Administration. Good Machine Learning Practice for Medical Device Development: Guiding Principles. https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles
 
 [FTC HBNR] Federal Trade Commission. Complying with FTC’s Health Breach Notification Rule. https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0
@@ -86,7 +88,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 ## Publication and citation
 
 - **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.0 · July 2026.
+- **Version:** v1.1 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330159.
 - **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.

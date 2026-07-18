@@ -2,7 +2,7 @@
 
 *Failure modes, practical examples, controls, test cases, and ownership*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.0 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
 
 **Practical example:** A wellness agent that says “try magnesium” for night sweats may seem harmless. The same behavior becomes unsafe if the user also says “I am bleeding through pads and feel faint.” Risk depends on context, not just intent.
 
@@ -69,6 +69,8 @@ When multiple risks appear in one conversation, score the highest-consequence pl
 
 [NIST AI RMF] National Institute of Standards and Technology. AI Risk Management Framework. https://www.nist.gov/itl/ai-risk-management-framework
 
+[NIST AI 600-1] National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1). U.S. Department of Commerce, July 2024. https://doi.org/10.6028/NIST.AI.600-1
+
 [FDA SaMD] U.S. Food and Drug Administration. Software as a Medical Device. https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd
 
 [FTC HBNR] Federal Trade Commission. Complying with FTC’s Health Breach Notification Rule. https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0
@@ -79,7 +81,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 ## Publication and citation
 
 - **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.0 · July 2026.
+- **Version:** v1.1 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330159.
 - **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.

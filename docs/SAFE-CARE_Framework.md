@@ -2,7 +2,7 @@
 
 *End-to-end design, evaluation, release, and monitoring for safe healthcare AI agents*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.0 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
 
 Practical opening example: A user tells a menopause companion: “I’m 52, I have hot flashes, and today I’m bleeding heavily and feel dizzy.” A generic chatbot may answer the menopause question. A safe healthcare agent must first recognize the red flag, route the user toward urgent medical evaluation, avoid reassurance, and only then offer educational context. SAFE-CARE is the framework for making that behavior designed, tested, auditable, and repeatable.
 
@@ -29,7 +29,7 @@ The attached conference outline frames the market need: patients need support be
 
 The problem is not that healthcare agents cannot talk. The problem is that they can talk fluently while being wrong, unsafe, overconfident, poorly personalized, or unauditable. WHO guidance emphasizes that AI for health should put ethics and human rights at the heart of design, deployment, and use, and WHO’s large multi-modal model guidance explicitly recognizes broad potential use in health care, scientific research, public health, and drug development. [WHO 2021] [WHO 2025]
 
-SAFE-CARE converts those principles into an operating model: define the scope, ground the answer, fence unsafe behavior, evaluate through simulations and human review, contextualize carefully, act only through governed tools, route risk to humans, and maintain evidence for governance. [NIST AI RMF]
+SAFE-CARE converts those principles into an operating model: define the scope, ground the answer, fence unsafe behavior, evaluate through simulations and human review, contextualize carefully, act only through governed tools, route risk to humans, and maintain evidence for governance. [NIST AI RMF] [NIST AI 600-1]
 
 ## From demo chatbot to safe healthcare agent
 
@@ -361,6 +361,8 @@ This publication intentionally discloses the reusable methodology—not propriet
 
 [NIST AI RMF] National Institute of Standards and Technology. AI Risk Management Framework. https://www.nist.gov/itl/ai-risk-management-framework
 
+[NIST AI 600-1] National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1). U.S. Department of Commerce, July 2024. https://doi.org/10.6028/NIST.AI.600-1
+
 [FDA SaMD] U.S. Food and Drug Administration. Software as a Medical Device. https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd
 
 [FDA GMLP] U.S. Food and Drug Administration. Good Machine Learning Practice for Medical Device Development: Guiding Principles. https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles
@@ -397,7 +399,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 ## Publication and citation
 
 - **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.0 · July 2026.
+- **Version:** v1.1 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330159.
 - **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.

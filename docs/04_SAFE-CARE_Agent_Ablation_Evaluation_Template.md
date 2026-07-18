@@ -67,9 +67,9 @@
 
 ## References
 
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In SAFE-CARE public release repository, v1.0. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330842
+[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
-[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In SAFE-CARE public release repository, v1.0. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330842
+[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
 [LLM-as-Judge] Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. 2023. https://arxiv.org/abs/2306.05685
 
@@ -87,7 +87,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Author:** Yassen Eltayeb — Conefia.
 - **Version:** v1.1 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
-- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330159.
+- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
 - **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.
 - **Copyright:** © 2026 Yassen Eltayeb / Conefia.
 

@@ -8,9 +8,9 @@ authors:
     affiliation: Conefia
 version: 1.1.0
 date-released: 2026-07-01
-doi: "10.5281/zenodo.21330159"
+doi: "10.5281/zenodo.21330841"
 license: CC-BY-4.0
-repository-code: "https://github.com/Conefia/safe-care"
+repository-code: "https://github.com/Conefia/SAFE-CARE"
 abstract: "An end-to-end framework for scoping, grounding, safeguarding, evaluating, releasing, and monitoring healthcare AI agents."
 keywords:
   - healthcare AI

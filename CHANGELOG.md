@@ -14,4 +14,4 @@
 - Added licensing, citation, trademark, copyright, and public-use disclaimer.
 - Added control ownership, 30-day implementation path, evidence maturity model, dataset splits, judge calibration, hard-fail overrides, release authority, residual risk acceptance, and a live demonstration storyboard.
 - Added clean GitHub Markdown, branded DOCX/PDF assets, machine-readable templates, synthetic examples, publication checklist, and private redline review copies.
-- DOIs minted via Zenodo: framework `10.5281/zenodo.21330159`; public release repository `10.5281/zenodo.21330842`. Repository: https://github.com/Conefia/safe-care.
+- DOIs minted via Zenodo: framework `10.5281/zenodo.21330159`; public release repository `10.5281/zenodo.21330842`. Repository: https://github.com/Conefia/SAFE-CARE.

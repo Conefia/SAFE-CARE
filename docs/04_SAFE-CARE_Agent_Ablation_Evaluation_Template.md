@@ -65,11 +65,14 @@
 | Full agent score rises; latency becomes unacceptable | Optimize orchestration, cache safe evidence paths, or reduce nonessential tool calls. |
 | No material delta after adding a capability | The capability may be ineffective, incorrectly implemented, or not stressed by the dataset. |
 
+## Companion documents
+
+Also published in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
+
+- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
+
 ## References
-
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
-
-[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
 [LLM-as-Judge] Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. 2023. https://arxiv.org/abs/2306.05685
 

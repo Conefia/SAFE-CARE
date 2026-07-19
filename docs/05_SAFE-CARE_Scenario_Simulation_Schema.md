@@ -196,11 +196,14 @@
 
 - Separate scenario-generation models from the evaluated agent and document model/version dependence.
 
+## Companion documents
+
+Also published in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
+
+- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
+
 ## References
-
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
-
-[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
 [HealthBench] Arora et al. HealthBench: Evaluating Large Language Models Towards Improved Human Health. 2025. https://arxiv.org/abs/2505.08775
 

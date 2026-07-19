@@ -8,7 +8,7 @@ Practical opening example: A user tells a menopause companion: “I’m 52, I ha
 
 ## Executive thesis
 
-Healthcare AI agents should not be evaluated as “chatbots.” They should be designed and evaluated as governed clinical-adjacent systems that reason, retrieve approved evidence, personalize from structured context, use tools safely, escalate risk, and leave an auditable trail. This framework generalizes lessons from the the menopause-support companion design into a reusable approach for Conefia’s future healthcare AI agents. [Case Study]
+Healthcare AI agents should not be evaluated as “chatbots.” They should be designed and evaluated as governed clinical-adjacent systems that reason, retrieve approved evidence, personalize from structured context, use tools safely, escalate risk, and leave an auditable trail. This framework generalizes lessons from the menopause-support companion design into a reusable approach for Conefia’s future healthcare AI agents. [Case Study]
 
 The attached conference outline frames the market need: patients need support between visits while clinics face engagement challenges, staff shortages, follow-up burden, and patient education burden. It also names the core failure modes that the framework must prevent: hallucinations, unsafe advice, missing escalation, lack of personalization, and overreliance. [Conference Outline]
 
@@ -351,9 +351,9 @@ This publication intentionally discloses the reusable methodology—not propriet
 
 ## References
 
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
+[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study). Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
-[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
+[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: conference talk outline. In the SAFE-CARE public release repository (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline). Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
 [WHO 2021] World Health Organization. Ethics and governance of artificial intelligence for health. 2021. https://www.who.int/publications/i/item/9789240029200
 

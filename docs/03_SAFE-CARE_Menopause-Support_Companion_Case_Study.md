@@ -63,9 +63,9 @@ The public case study is deliberately generalized. It does not disclose propriet
 
 ## References
 
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
+[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study). Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
-[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
+[Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: conference talk outline. In the SAFE-CARE public release repository (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline). Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
 
 [RAG] Lewis et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020. https://arxiv.org/abs/2005.11401
 

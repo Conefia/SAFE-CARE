@@ -34,7 +34,12 @@ Architecture: User → input safety → evidence/context → orchestrator → go
 
 Healthcare AI safety is not a prompt. It is an operating system: scope, evidence, guardrails, tools, memory, evaluation, escalation, and governance.
 
-[Case Study] Eltayeb, Y. (2026). Menopause-support companion design case study. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841 [Conference Outline] Eltayeb, Y. (2026). Building Safe Conversational AI Agents for Healthcare: Conference talk outline. In the SAFE-CARE public release repository. Conefia. GitHub/Zenodo. https://doi.org/10.5281/zenodo.21330841
+## Companion documents
+
+Published alongside this one-pager in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
+
+- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE, based on the author's prior applied work and presented in anonymized form (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
 
 Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---

@@ -2,7 +2,7 @@
 
 *A practical operating model for patient-facing healthcare AI agents*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
 Start with the failure: a patient says, “I have heavy bleeding and feel dizzy.” The agent’s first job is not to sound helpful—it is to recognize risk, avoid reassurance, and route the user to prompt care. SAFE-CARE turns that principle into an end-to-end operating model.
 
@@ -46,12 +46,12 @@ Public framework for educational and engineering use. It is not medical, legal, 
 
 ## Publication and citation
 
-- **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.1 · July 2026.
+- **Author:** Yassen Eltayeb.
+- **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.
-- **Copyright:** © 2026 Yassen Eltayeb / Conefia.
+- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 

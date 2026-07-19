@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Docs-CC--BY--4.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Docs license CC BY 4.0">
   <img src="https://img.shields.io/badge/Code-Apache--2.0-DEFF00?style=flat-square&labelColor=2B2B2B" alt="Code license Apache 2.0">
-  <img src="https://img.shields.io/badge/version-1.1.0-2B2B2B?style=flat-square" alt="Version 1.1.0">
+  <img src="https://img.shields.io/badge/version-1.2.0-2B2B2B?style=flat-square" alt="Version 1.2.0">
   <a href="https://doi.org/10.5281/zenodo.21330841"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21330841-2B2B2B?style=flat-square" alt="DOI"></a>
   <img src="https://img.shields.io/badge/Cite-CITATION.cff-2B2B2B?style=flat-square" alt="Cite this">
   <img src="https://img.shields.io/badge/PRs-welcome-2B2B2B?style=flat-square" alt="PRs welcome">
@@ -27,7 +27,7 @@ SAFE-CARE is written for healthcare organizations, clinicians, founders, product
 
 | If you want to… | Go to |
 |---|---|
-| Understand the whole method | [`docs/SAFE-CARE_Framework.md`](docs/SAFE-CARE_Framework.md) · [whitepaper PDF](release_assets/pdf/SAFE-CARE_Framework_Whitepaper.pdf) |
+| Understand the whole method | [`docs/SAFE-CARE_Framework.md`](docs/SAFE-CARE_Framework.md) · [white paper PDF](release_assets/pdf/SAFE-CARE_Framework_White paper.pdf) |
 | Share a one-page overview | [`docs/01_SAFE-CARE_One_Pager.md`](docs/01_SAFE-CARE_One_Pager.md) |
 | Map your failure modes | [`docs/02_..._Risk_Taxonomy.md`](docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md) |
 | Evaluate an agent | [ablation](docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md) · [scenarios](docs/05_SAFE-CARE_Scenario_Simulation_Schema.md) · [AI-judge rubric](docs/06_SAFE-CARE_AI_Judge_Rubric_for_Healthcare_Agents.md) |

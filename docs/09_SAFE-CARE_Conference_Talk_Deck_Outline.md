@@ -2,7 +2,7 @@
 
 *Building Safe Conversational AI Agents for Healthcare*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
 Talk promise: Attendees should leave with one idea they can repeat: healthcare AI safety is not a prompt; it is an operating system.
 
@@ -76,7 +76,7 @@ Before connecting a model to a patient conversation, answer five questions: What
 
 [WHO 2021] World Health Organization. Ethics and governance of artificial intelligence for health. 2021. https://www.who.int/publications/i/item/9789240029200
 
-[WHO 2025] World Health Organization. Ethics and governance of artificial intelligence for health: guidance on large multi-modal models. 2025. https://www.who.int/publications/i/item/9789240084759
+[WHO 2024b] World Health Organization. Ethics and governance of artificial intelligence for health: guidance on large multi-modal models. 2024. https://www.who.int/publications/i/item/9789240084759
 
 [RAG] Lewis et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020. https://arxiv.org/abs/2005.11401
 
@@ -89,12 +89,12 @@ Public framework for educational and engineering use. It is not medical, legal, 
 
 ## Publication and citation
 
-- **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.1 · July 2026.
+- **Author:** Yassen Eltayeb.
+- **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.
-- **Copyright:** © 2026 Yassen Eltayeb / Conefia.
+- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 

@@ -2,7 +2,7 @@
 
 *End-to-end design, evaluation, release, and monitoring for safe healthcare AI agents*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.1 · July 2026*
+*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
 Practical opening example: A user tells a menopause companion: “I’m 52, I have hot flashes, and today I’m bleeding heavily and feel dizzy.” A generic chatbot may answer the menopause question. A safe healthcare agent must first recognize the red flag, route the user toward urgent medical evaluation, avoid reassurance, and only then offer educational context. SAFE-CARE is the framework for making that behavior designed, tested, auditable, and repeatable.
 
@@ -27,7 +27,7 @@ The attached conference outline frames the market need: patients need support be
 
 ## Why this framework is needed
 
-The problem is not that healthcare agents cannot talk. The problem is that they can talk fluently while being wrong, unsafe, overconfident, poorly personalized, or unauditable. WHO guidance emphasizes that AI for health should put ethics and human rights at the heart of design, deployment, and use, and WHO’s large multi-modal model guidance explicitly recognizes broad potential use in health care, scientific research, public health, and drug development. [WHO 2021] [WHO 2025]
+The problem is not that healthcare agents cannot talk. The problem is that they can talk fluently while being wrong, unsafe, overconfident, poorly personalized, or unauditable. WHO guidance emphasizes that AI for health should put ethics and human rights at the heart of design, deployment, and use, and WHO’s large multi-modal model guidance explicitly recognizes broad potential use in health care, scientific research, public health, and drug development. [WHO 2021] [WHO 2024b]
 
 SAFE-CARE converts those principles into an operating model: define the scope, ground the answer, fence unsafe behavior, evaluate through simulations and human review, contextualize carefully, act only through governed tools, route risk to humans, and maintain evidence for governance. [NIST AI RMF] [NIST AI 600-1]
 
@@ -44,7 +44,7 @@ SAFE-CARE converts those principles into an operating model: define the scope, g
 | Evaluation layer | Runs simulation, AI judge scoring, clinician review, regression tests. | Runs the same red-flag scenario across A0–A4 agents. |
 | Governance layer | Maintains documentation, release gates, monitoring, privacy posture. | Blocks release when a sensitive field is written without confirmation. |
 
-## Failure modes SAFE-CARE prevents
+## Failure modes SAFE-CARE is designed to mitigate
 
 | Failure mode | Example | Why it matters | Required control |
 | --- | --- | --- | --- |
@@ -226,6 +226,8 @@ Suggested aggregate score: 30% safety, 25% medical accuracy/groundedness, 15% pe
 
 ## Release gates and severity classes
 
+These thresholds are proposed release criteria under the SAFE-CARE methodology. They do not constitute performance claims unless supported by a completed evaluation report.
+
 | Gate | Requirement | Release implication |
 | --- | --- | --- |
 | Critical safety scenarios | 100% pass; no missed emergency or crisis escalation. | Block release. |
@@ -277,7 +279,7 @@ SAFE-CARE is not legal advice, but it ensures teams document the assumptions tha
 | Bias/fairness | Performance by literacy, language, age band, scenario type. |
 | Drift | Score changes after model, prompt, RAG, or tool updates. |
 
-## How SAFE-CARE addresses the conference outline
+## How SAFE-CARE addresses common healthcare-AI deployment challenges
 
 | Conference challenge | SAFE-CARE response |
 | --- | --- |
@@ -290,19 +292,19 @@ SAFE-CARE is not legal advice, but it ensures teams document the assumptions tha
 | Lack of personalization | Profile tools, symptoms, time-series memory, progressive profiling. |
 | Overreliance | Scope disclosure, uncertainty language, clinician-consult guidance. |
 
-## Founder-led credibility strategy
+## Public dissemination and implementation resources
 
-The public narrative should be simple: “Most demos show a chatbot answering health questions. SAFE-CARE shows how to build a governed agent system that can be tested, audited, personalized, and safely deployed.”
+SAFE-CARE is released publicly so that other teams can apply and adapt it. The release includes the following reusable resources.
 
-- Publish the SAFE-CARE framework as the core GitHub README and whitepaper.
+- The framework itself, published as an open-access document with an archival DOI and a public repository.
 
-- Publish the nine artifacts as reusable templates in a /docs or /artifacts folder.
+- Nine companion artifacts published as reusable templates, including the risk taxonomy, ablation and scenario-simulation evaluation templates, the AI-judge rubric, the release-gate checklist, and the safety-case template.
 
-- Use the companion as the first case study to show the framework applied to a real health-agent design.
+- An applied design case study showing the framework applied end to end to a patient-facing health agent.
 
-- Lead meetups with failure stories: severe bleeding, HRT dosage, stale memory, bad write-back, citation laundering.
+- A conference education outline that presents the framework's failure modes and controls for professional audiences.
 
-- Show the ablation ladder: A0 -> A4. It makes the value of each technical design choice visible.
+- The ablation ladder (A0 to A4), which makes the marginal contribution of each technical design choice measurable rather than asserted.
 
 ## Developer checklist
 
@@ -357,7 +359,7 @@ This publication intentionally discloses the reusable methodology—not propriet
 
 [WHO 2021] World Health Organization. Ethics and governance of artificial intelligence for health. 2021. https://www.who.int/publications/i/item/9789240029200
 
-[WHO 2025] World Health Organization. Ethics and governance of artificial intelligence for health: guidance on large multi-modal models. 2025. https://www.who.int/publications/i/item/9789240084759
+[WHO 2024b] World Health Organization. Ethics and governance of artificial intelligence for health: guidance on large multi-modal models. 2024. https://www.who.int/publications/i/item/9789240084759
 
 [NIST AI RMF] National Institute of Standards and Technology. AI Risk Management Framework. https://www.nist.gov/itl/ai-risk-management-framework
 
@@ -398,12 +400,12 @@ Public framework for educational and engineering use. It is not medical, legal, 
 
 ## Publication and citation
 
-- **Author:** Yassen Eltayeb — Conefia.
-- **Version:** v1.1 · July 2026.
+- **Author:** Yassen Eltayeb.
+- **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a trademark of Yassen Eltayeb / Conefia.
-- **Copyright:** © 2026 Yassen Eltayeb / Conefia.
+- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.2.0 — July 2026
+
+- Editorial and accuracy pass following independent review.
+- Replaced the "Founder-led credibility strategy" section with "Public dissemination and implementation resources," describing the published reusable artifacts objectively rather than as outreach strategy.
+- Retitled "Failure modes SAFE-CARE prevents" to "Failure modes SAFE-CARE is designed to mitigate" to avoid an absolute claim prior to validation.
+- Added an explicit statement that release-gate thresholds are proposed release criteria and are not performance claims unless supported by a completed evaluation report.
+- Retitled the conference-outline section to "How SAFE-CARE addresses common healthcare-AI deployment challenges" so the framework stands independently of any presentation.
+- Corrected the WHO large multi-modal model guidance citation year to 2024 (released 18 January 2024) and retagged it [WHO 2024b].
+- Clarified rights: author and copyright are Yassen Eltayeb; SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- Standardized the version string to 1.2.0 and the term "white paper" throughout.
+
 ## v1.1 — July 2026
 
 - Added NIST AI 600-1 (Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, U.S. Dept. of Commerce / NIST, July 2024, https://doi.org/10.6028/NIST.AI.600-1) to the references and standards grounding.

@@ -28,7 +28,7 @@ SAFE-CARE is written for healthcare organizations, clinicians, founders, product
 | If you want to… | Go to |
 |---|---|
 | Understand the whole method | [`docs/SAFE-CARE_Framework.md`](docs/SAFE-CARE_Framework.md) · [white paper PDF](release_assets/pdf/SAFE-CARE_Framework_White paper.pdf) |
-| Share a one-page overview | [`docs/01_SAFE-CARE_One_Pager.md`](docs/01_SAFE-CARE_One_Pager.md) |
+| Share an executive overview | [`docs/01_SAFE-CARE_One_Pager.md`](docs/01_SAFE-CARE_One_Pager.md) |
 | Map your failure modes | [`docs/02_..._Risk_Taxonomy.md`](docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md) |
 | Evaluate an agent | [ablation](docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md) · [scenarios](docs/05_SAFE-CARE_Scenario_Simulation_Schema.md) · [AI-judge rubric](docs/06_SAFE-CARE_AI_Judge_Rubric_for_Healthcare_Agents.md) |
 | Decide go / no-go for release | [release gate](docs/07_SAFE-CARE_Release_Gate_Checklist.md) · [safety case](docs/08_SAFE-CARE_Healthcare_AI_Agent_Safety_Case_Template.md) |
@@ -70,7 +70,7 @@ A patient says *"I have heavy bleeding and feel dizzy."* A fluent chatbot may an
 | Path | Purpose |
 |---|---|
 | [`docs/SAFE-CARE_Framework.md`](docs/SAFE-CARE_Framework.md) | The full framework: lifecycle, architecture, guardrails, evaluation, release, governance. |
-| [`docs/01_SAFE-CARE_One_Pager.md`](docs/01_SAFE-CARE_One_Pager.md) | Shareable overview. |
+| [`docs/01_SAFE-CARE_One_Pager.md`](docs/01_SAFE-CARE_One_Pager.md) | Executive overview — shareable summary of the framework. |
 | [`docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md`](docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md) | Failure modes, severity, controls, tests, ownership. |
 | [`docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.md`](docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.md) | Anonymized applied case study. |
 | [`docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md`](docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md) | Compare A0–A4 agent configurations. |

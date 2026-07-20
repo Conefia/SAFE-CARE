@@ -3,7 +3,7 @@
 - Clean-package confidentiality scan: **PASS**.
 - Scanned for the client case-study name, client app name, private source labels, and generated stamp text across Markdown, metadata, DOCX XML, and extracted PDF text.
 - Ten clean branded DOCX files and ten matching PDFs were rendered and visually reviewed for clipping, overlap, broken glyphs, table overflow, headers, and footers.
-- The framework one-pager is confirmed as a single-page PDF.
+- The framework executive overview renders correctly and is complete; it is a short multi-page summary, not a single page.
 - All document titles use SAFE-CARE™ on the first prominent use; subsequent framework references are plain SAFE-CARE.
 - Every branded document includes the authorship line, v1.0 date, licensing, citation placeholder, trademark legend, copyright, and Conefia letterhead.
 - GitHub Markdown was regenerated with clean headings, separate tables, readable references, and the README opening line required by the editor instructions.

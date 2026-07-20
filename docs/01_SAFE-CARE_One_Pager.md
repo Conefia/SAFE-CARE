@@ -1,4 +1,4 @@
-# SAFE-CARE™ Framework One-Pager
+# SAFE-CARE™ Framework — Executive Overview
 
 *A practical operating model for patient-facing healthcare AI agents*
 
@@ -36,7 +36,7 @@ Healthcare AI safety is not a prompt. It is an operating system: scope, evidence
 
 ## Companion documents
 
-Published alongside this one-pager in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
+Published alongside this overview in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
 
 - **Menopause-support companion design case study** — the first applied case study of SAFE-CARE, based on the author's prior applied work and presented in anonymized form (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
 - **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
@@ -47,6 +47,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 ## Publication and citation
 
 - **Author:** Yassen Eltayeb.
+- **Publisher:** Conefia LLC.
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.

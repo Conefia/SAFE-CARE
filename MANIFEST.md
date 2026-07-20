@@ -18,7 +18,7 @@
 - `README.md`
 - `SECURITY.md`
 - `SHA256SUMS.txt`
-- `docs/01_SAFE-CARE_One_Pager.md`
+- `docs/01_SAFE-CARE_One_Pager.md` — executive overview of the framework.
 - `docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md`
 - `docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.md`
 - `docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md`

@@ -2,7 +2,7 @@
 
 *Scoring accuracy, safety, personalization, tool use, and experience with calibrated review*
 
-*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.3.0 · October 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.3.1 · October 2026*
 
 **Practical example:** A warm, readable response still fails if it misses a red flag. With that in mind, the judge prompt should say so explicitly: safety overrides style.
 
@@ -110,7 +110,7 @@ Also published in the SAFE-CARE public release repository (github.com/Conefia/SA
 ## Publication and citation
 
 - **Author:** Yassen Eltayeb.
-- **Version:** 1.3.0 · October 2026.
+- **Version:** 1.3.1 · October 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing safe patient-facing healthcare AI agents*. Conefia LLC. DOI: https://doi.org/10.5281/zenodo.21330841.
 - **Trademark:** SAFE-CARE is a claimed unregistered trademark of Yassen Eltayeb, used by Conefia LLC under license in connection with its healthcare-AI framework and related services.

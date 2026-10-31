@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## v1.3.1 · October 2026
+
+A consistency release: one title, one trademark notice and one hard-fail list across the repository, the white paper and Zenodo.
 
 - The title now reads "SAFE-CARE: A framework for designing, evaluating and releasing safe patient-facing healthcare AI agents", identical across `CITATION.cff`, `.zenodo.json`, `NOTICE.md`, the README, every document's "How to cite" line and both Zenodo records, with Conefia LLC as publisher.
 - White paper v2.0.1 carries the new title and the trademark wording below. Its content is otherwise unchanged from v2.0.

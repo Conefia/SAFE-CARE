@@ -1,6 +1,6 @@
 # SAFE-CARE Public Release Manifest
 
-Version 1.3.0 · October 2026. Every file in the release, generated from the repository tree.
+Version 1.3.1 · October 2026. Every file in the release, generated from the repository tree.
 
 - `.github/ISSUE_TEMPLATE/safety-report.yml`
 - `.github/PULL_REQUEST_TEMPLATE.md`

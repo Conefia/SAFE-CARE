@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use SAFE-CARE, please cite it using this metadata."
-title: "SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents"
+title: "SAFE-CARE: A framework for designing, evaluating and releasing safe patient-facing healthcare AI agents"
 type: software
 authors:
   - family-names: Eltayeb

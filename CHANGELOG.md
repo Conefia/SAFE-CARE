@@ -2,9 +2,12 @@
 
 ## Unreleased
 
-- The citation title now matches white paper v2.0: "SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents". It is updated in `CITATION.cff`, `.zenodo.json`, `NOTICE.md`, the README and every document's "How to cite" line, with Conefia LLC as publisher.
+- The title now reads "SAFE-CARE: A framework for designing, evaluating and releasing safe patient-facing healthcare AI agents", identical across `CITATION.cff`, `.zenodo.json`, `NOTICE.md`, the README, every document's "How to cite" line and both Zenodo records, with Conefia LLC as publisher.
+- White paper v2.0.1 carries the new title and the trademark wording below. Its content is otherwise unchanged from v2.0.
+- Trademark wording: SAFE-CARE is a claimed unregistered trademark of Yassen Eltayeb, used by Conefia LLC under license. It now reads the same in the README, NOTICE, every document footer and the white paper.
+- Judge rubric (`docs/06`, `templates/ai_judge_rubric.yaml`): the document and the template now list the same seven hard-fail conditions, adding protected-data exposure to the document and encouraging delay of urgent care to the template. Clarification, citation quality and uncertainty handling are stated to carry no weight in the illustrative composite.
 - `MANIFEST.md` now lists every file in the repository (105 files).
-- The Zenodo deposit description in `.zenodo.json` is rewritten for v1.3.0 and links white paper v2.0 (10.5281/zenodo.23826804).
+- The Zenodo deposit description in `.zenodo.json` is rewritten for v1.3.0 and links white paper v2.0.1 (10.5281/zenodo.23826962).
 
 ## v1.3.0 · October 2026
 

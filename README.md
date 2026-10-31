@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/social-preview.png" alt="SAFE-CARE: a framework for designing, evaluating and releasing patient-facing healthcare AI agents" width="820">
+  <img src="assets/social-preview.png" alt="SAFE-CARE: a framework for designing, evaluating and releasing safe patient-facing healthcare AI agents" width="820">
 </p>
 
 <h1 align="center">SAFE-CARE&#8482;</h1>
@@ -145,14 +145,14 @@ The design case study is **anonymized and generalized**. Specifically, this repo
 
 If you use SAFE-CARE, please cite it (see [`CITATION.cff`](CITATION.cff)):
 
-> Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents.* Conefia LLC. DOI: [10.5281/zenodo.21330841](https://doi.org/10.5281/zenodo.21330841).
+> Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing safe patient-facing healthcare AI agents.* Conefia LLC. DOI: [10.5281/zenodo.21330841](https://doi.org/10.5281/zenodo.21330841).
 
 ## License
 
 - **Documentation and narrative artifacts:** [CC BY 4.0](LICENSE-DOCUMENTATION-CC-BY-4.0.txt)
 - **Code, JSON/YAML schemas, and reusable machine-readable templates:** [Apache License 2.0](LICENSE-CODE-APACHE-2.0.txt)
 
-SAFE-CARE is a trademark of Yassen Eltayeb / Conefia. © 2026 Yassen Eltayeb / Conefia.
+SAFE-CARE is a claimed unregistered trademark of Yassen Eltayeb, used by Conefia LLC under license. © 2026 Yassen Eltayeb.
 
 ## Maintainer
 

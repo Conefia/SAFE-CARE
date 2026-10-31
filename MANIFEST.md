@@ -86,7 +86,7 @@ Version 1.3.0 · October 2026. Every file in the release, generated from the rep
 - `release_assets/docx/09_SAFE-CARE_Conference_Talk_Deck_Outline.docx`
 - `release_assets/docx/10_SAFE-CARE_Instrument_Qualification.docx`
 - `release_assets/docx/11_SAFE-CARE_Change_Control.docx`
-- `release_assets/docx/SAFE-CARE_Framework_White_Paper.docx`: white paper v2.0.
+- `release_assets/docx/SAFE-CARE_Framework_White_Paper.docx`: white paper v2.0.1.
 - `release_assets/pdf/01_SAFE-CARE_One_Pager.pdf`
 - `release_assets/pdf/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.pdf`
 - `release_assets/pdf/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.pdf`
@@ -98,7 +98,7 @@ Version 1.3.0 · October 2026. Every file in the release, generated from the rep
 - `release_assets/pdf/09_SAFE-CARE_Conference_Talk_Deck_Outline.pdf`
 - `release_assets/pdf/10_SAFE-CARE_Instrument_Qualification.pdf`
 - `release_assets/pdf/11_SAFE-CARE_Change_Control.pdf`
-- `release_assets/pdf/SAFE-CARE_Framework_White_Paper.pdf`: white paper v2.0.
+- `release_assets/pdf/SAFE-CARE_Framework_White_Paper.pdf`: white paper v2.0.1.
 - `templates/ai_judge_rubric.yaml`
 - `templates/change_control_map.yaml`
 - `templates/instrument_qualification.yaml`

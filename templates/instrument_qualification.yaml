@@ -1,0 +1,47 @@
+version: "1.0"
+# Qualification record: complete before any release gate is read. See docs/10.
+configuration:
+  agent_version: ""
+  prompt_version: ""
+  retrieval_sources_version: ""
+  tools_version: ""
+  decoding_settings: {}
+  configuration_hash: ""
+judge:
+  model: ""
+  prompt_version: ""
+  rubric_version: ""
+  model_family_differs_from_agent: null
+reference_standard:
+  set_by: ""
+  method: ""
+  fixed_on: ""               # date, before any scoring
+  independent_of_judge: true
+  scenario_file_hash: ""
+observation_window:
+  declared_per_scenario: true    # required_action_turn and observation_window_turns
+judge_calibration:
+  clinician_raters: 0
+  per_dimension_agreement: {}    # dimension: {statistic: "", value: null, interval: [null, null]}
+clinician_band:
+  per_dimension_between_clinician_agreement: {}
+judged_turn_coverage:
+  share_of_turns_scored_by_any_judge: {}        # dimension or tier: value
+  share_of_safety_actions_scored_by_safety_judge: null
+positive_control:
+  hard_fail_control_scenario: ""
+  gate_blocked_it: null
+  rubric_version: ""
+disagreement_rule:
+  text: ""
+  dated: ""
+null_comparison:
+  K: 5
+  splits: 2000
+  noise_floor_one_run_per_version: [null, null]
+  smallest_detectable_difference_80_power: {"1": null, "2": null, "3": null, "5": null, "10": null}
+  tool: "tools/repeat_run_floor.py"
+re_qualify_when:
+  - judge_model_or_prompt_or_rubric_changed
+  - scenario_library_or_reference_answers_changed
+  - each_release_cycle_on_safety_core

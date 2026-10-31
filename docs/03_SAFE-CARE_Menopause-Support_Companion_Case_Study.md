@@ -2,15 +2,19 @@
 
 *Applying the framework to an anonymized menopause and perimenopause companion*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
-User story: A user says, “I do not know if I am in perimenopause. I have irregular periods, night sweats, and I had one ovary removed.” The companion should not jump to a diagnosis. It should progressively collect the missing data, ground education in approved sources, explain uncertainty, and save only confirmed facts.
+This case study shows how each SAFE-CARE principle becomes a design choice and a test in one anonymized product. It is written for teams that build, evaluate or review a similar patient-facing companion.
+
+**User story:** The companion should not jump to a diagnosis. For example, a user says, “I do not know if I am in perimenopause. I have irregular periods, night sweats, and I had one ovary removed.” Here the companion should collect the missing data progressively, ground its education in approved sources, explain what remains uncertain, and save only the facts the user confirms.
 
 ## Why the companion is a strong SAFE-CARE case study
 
-The companion demonstrates an applied agentic RAG pattern: a reasoning-capable dialogue model, clinician-approved evidence layer, in-chat citations, app read/write tools, progressive profiling, predictive menopause stage logic, session summaries, and time-series context management. [Case Study]
+The companion is a strong case study because it demonstrates an applied agentic RAG pattern in one product. Its parts are a reasoning-capable dialogue model, a clinician-approved evidence layer, in-chat citations, app read/write tools, progressive profiling, predictive menopause-stage logic, session summaries, and time-series context management. [Case Study] Because each part can fail in its own way, the mapping below pairs every principle with the question an evaluation should answer.
 
 ## SAFE-CARE mapping
+
+The mapping turns each principle into one implementation choice and one evaluation question. With that in mind, a team building a similar agent can use the right-hand column as its first evaluation checklist.
 
 | SAFE-CARE principle | Companion implementation | Evaluation question |
 | --- | --- | --- |
@@ -25,6 +29,8 @@ The companion demonstrates an applied agentic RAG pattern: a reasoning-capable d
 
 ## The companion ablation ladder
 
+To answer the Evaluate question, the ladder adds one group of capabilities at a time, from the base model (A0) to the full companion (A4), so each rung shows what its group contributes. Even so, the expected lift is a hypothesis for the evaluation to test, and the Agent Ablation Evaluation Template sets out the protocol.
+
 | Agent | Capabilities | Expected lift |
 | --- | --- | --- |
 | A0 | Base LLM only. | Baseline fluency; lowest safety and personalization. |
@@ -34,6 +40,8 @@ The companion demonstrates an applied agentic RAG pattern: a reasoning-capable d
 | A4 | + menopause prediction, write-back tools, profile/symptom/stage sync. | Closed-loop personalization and structured profile quality. |
 
 ## Practical evaluation scenarios
+
+Against that ladder, five scenarios each stress a different part of the mapping, from grounded education to red-flag routing and confirmed write-back. Run all five through every rung and score each response against the expected behavior.
 
 | Scenario | Expected companion behavior |
 | --- | --- |
@@ -45,9 +53,13 @@ The companion demonstrates an applied agentic RAG pattern: a reasoning-capable d
 
 ## Case-study narrative for conferences
 
-“The menopause-support companion case study demonstrated that healthcare AI safety is not only about avoiding bad text. It is about the whole loop: collecting the right information, grounding the answer, using app context, updating state only when safe, and measuring whether each design choice actually improves performance.”
+Presenters can use this summary as written:
+
+“The menopause-support companion case study demonstrated that healthcare AI safety covers the whole loop. Avoiding bad text is one step. The others are collecting the right information, grounding the answer, using app context, updating state only when safe, and measuring whether each design choice actually improves performance.”
 
 ## What the case study can and cannot demonstrate
+
+However, a technical evaluation of the companion can show measured technical performance, whereas clinical effectiveness, diagnostic validity and generalization need further study. Those limits should accompany any claim drawn from the case study.
 
 | Can demonstrate | Cannot demonstrate without further study |
 | --- | --- |
@@ -59,7 +71,7 @@ The companion demonstrates an applied agentic RAG pattern: a reasoning-capable d
 
 ## Public case-study boundary
 
-The public case study is deliberately generalized. It does not disclose proprietary prompts, exact prediction logic, private content libraries, production datasets, screenshots, user records, client protocols, model credentials, or deployment-specific infrastructure. It documents the reusable design pattern and evaluation logic only.
+Beyond those limits, the public case study documents only the reusable design pattern and its evaluation logic. It is deliberately generalized and withholds proprietary prompts, exact prediction logic, private content libraries, production datasets, screenshots, user records, client protocols, model credentials, and deployment-specific infrastructure. In practice, a team that adopts the pattern builds and reviews these parts for its own deployment.
 
 ## References
 
@@ -77,7 +89,6 @@ The public case study is deliberately generalized. It does not disclose propriet
 
 [HealthBench] Arora et al. HealthBench: Evaluating Large Language Models Towards Improved Human Health. 2025. https://arxiv.org/abs/2505.08775
 
-Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---
 
 ## Publication and citation
@@ -86,7 +97,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

@@ -2,11 +2,13 @@
 
 *A structured, evidence-backed argument that an agent is safe enough for its intended use*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
-**Practical example:** A safety case is the document you want in your hand when a hospital buyer asks: “How do you know this agent will not give unsafe advice?” It connects claims, risks, controls, evidence, and open issues.
+**Practical example:** When a hospital buyer asks, “How do you know this agent will not give unsafe advice?”, the safety case answers, because it connects claims, risks, controls, evidence, and open issues.
 
 ## Safety case structure
+
+A safety case has ten sections, from intended use to signoff.
 
 | Section | What to write |
 | --- | --- |
@@ -23,15 +25,19 @@
 
 ## Safety claim examples
 
+Each claim below names the evidence it requires.
+
 | Claim | Evidence required |
 | --- | --- |
 | The agent does not provide prescription-like guidance. | Medication scenario suite, output guardrail logs, clinician review of failures. |
-| The agent escalates red flags reliably. | 100% pass on critical scenarios; production escalation monitoring. |
+| The agent escalates red flags reliably. | 100% pass on critical scenarios, read in v1.3.0 as zero misses across all K repeat runs (`docs/07`); production escalation monitoring. |
 | The agent grounds medical claims in approved evidence. | RAG trace audit, citation judge score, clinician spot-check. |
 | The agent writes sensitive health profile fields only after confirmation. | Tool-call logs, schema validation, confirmation UI screenshots. |
 | The agent uses memory without stale or invented facts. | Time-series tests, contradiction scenarios, user correction logs. |
 
 ## Risk-control-evidence matrix
+
+The matrix ties each risk to a control, evidence and owner.
 
 | Risk | Control | Evidence | Owner |
 | --- | --- | --- | --- |
@@ -43,6 +49,8 @@
 
 ## Residual risk acceptance
 
+Remaining risk is accepted in writing, with an owner and expiry.
+
 | Residual risk | Why it remains | Compensating control | Owner | Acceptance / expiry |
 | --- | --- | --- | --- | --- |
 | Example: occasional false-positive escalation | Sensitivity prioritized for a high-risk symptom class | Human review; user-friendly wording; monitor escalation rate | Clinical safety lead | Accepted for pilot; review after 30 days |
@@ -50,9 +58,11 @@
 
 ## Safety claim pattern
 
-Write every claim as: “For [intended use and population], configuration [version] is acceptably safe with respect to [specific hazard] because [controls] achieved [measured evidence], subject to [limitations and monitoring].” This prevents vague claims such as “the agent is safe.”
+Based on these tables, write every claim as: “For [intended use and population], configuration [version] is acceptably safe with respect to [specific hazard] because [controls] achieved [measured evidence], subject to [limitations and monitoring].” In practice, each slot forces a named hazard, a configuration and measured evidence, so the pattern rules out vague claims such as “the agent is safe.”
 
 ### Required review questions
+
+Before signoff, test every claim against these five questions.
 
 - What evidence would falsify this safety claim?
 
@@ -68,8 +78,8 @@ Write every claim as: “For [intended use and population], configuration [versi
 
 Also published in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
 
-- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
-- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
+- **Menopause-support companion design case study**: the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare**: conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
 
 ## References
 
@@ -85,7 +95,6 @@ Also published in the SAFE-CARE public release repository (github.com/Conefia/SA
 
 [FTC HBNR] Federal Trade Commission. Complying with FTC’s Health Breach Notification Rule. https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0
 
-Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---
 
 ## Publication and citation
@@ -94,7 +103,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

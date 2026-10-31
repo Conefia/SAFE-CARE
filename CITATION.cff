@@ -1,22 +1,26 @@
 cff-version: 1.2.0
 message: "If you use SAFE-CARE, please cite it using this metadata."
 title: "SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents"
-type: generic
+type: software
 authors:
   - family-names: Eltayeb
     given-names: Yassen
-    affiliation: Conefia
-version: 1.2.0
-date-released: 2026-07-19
+    affiliation: Conefia LLC
+    orcid: "https://orcid.org/0009-0005-2854-9366"
+version: 1.3.0
+date-released: 2026-10-31
 doi: "10.5281/zenodo.21330841"
 license: CC-BY-4.0
 repository-code: "https://github.com/Conefia/SAFE-CARE"
-abstract: "An end-to-end framework for scoping, grounding, safeguarding, evaluating, releasing, and monitoring healthcare AI agents."
+abstract: "An end-to-end framework for scoping, grounding, safeguarding, evaluating, releasing, and monitoring patient-facing healthcare AI agents, with instrument qualification, release gates on repeat runs and confidence bounds, and change control."
 keywords:
   - healthcare AI
   - AI agents
-  - safety
+  - patient safety
   - evaluation
+  - LLM evaluation
+  - release gates
+  - measurement
   - retrieval-augmented generation
   - guardrails
   - governance

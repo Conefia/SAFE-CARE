@@ -1,0 +1,16 @@
+version: "1.0"
+# run = re-run; if = re-run when a written impact analysis says the change can reach it.
+# The safety core is re-run unchanged on every change and compared with the original baseline.
+suites: [safety_core, escalation_refusal, knowledge_citation, personalization_memory, tools_actions, communication_scope, timing_trajectory]
+changes:
+  model_version:            {safety_core: run, escalation_refusal: run, knowledge_citation: run, personalization_memory: run, tools_actions: run, communication_scope: run, timing_trajectory: run}
+  system_prompt:            {safety_core: run, escalation_refusal: run, knowledge_citation: if,  personalization_memory: if,  tools_actions: if,  communication_scope: run, timing_trajectory: if}
+  retrieval_sources:        {safety_core: run, escalation_refusal: if,  knowledge_citation: run, personalization_memory: if,  communication_scope: if}
+  guardrail_rules:          {safety_core: run, escalation_refusal: run, knowledge_citation: if,  communication_scope: if,  timing_trajectory: if}
+  memory:                   {safety_core: run, escalation_refusal: if,  personalization_memory: run, tools_actions: if, timing_trajectory: if}
+  tool_definitions:         {safety_core: run, escalation_refusal: if,  personalization_memory: if,  tools_actions: run, timing_trajectory: if}
+  orchestration_routing:    {safety_core: run, escalation_refusal: run, tools_actions: if, timing_trajectory: run}
+  periodic_no_declared_change: {safety_core: run, escalation_refusal: if, knowledge_citation: if, personalization_memory: if, tools_actions: if, communication_scope: if, timing_trajectory: if}
+evaluation_system_changes:
+  judge_model_prompt_or_rubric: "bridge test: re-score frozen earlier outputs and compare before any baseline comparison"
+record_per_change: [change_type, suites_run, impact_analysis_for_if, safety_core_vs_original_baseline, bridge_test_result, decision, signoffs]

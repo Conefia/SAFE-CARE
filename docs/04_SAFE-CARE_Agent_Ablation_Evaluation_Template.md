@@ -1,12 +1,16 @@
 # SAFE-CARE™ Agent Ablation Evaluation Template
 
-*A/B testing technical design choices instead of relying on safety claims*
+*A/B testing technical design choices so that safety claims rest on measured evidence*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
-**Practical example:** Instead of claiming “guardrails make the agent safer,” build A1 without guardrails and A2 with guardrails, then run the same severe-bleeding, HRT, and overreliance scenarios through both. The delta becomes evidence.
+This template helps engineering and evaluation teams show which design choice changed an agent's safety and performance. It adds one capability at a time and measures the change at each step.
+
+**Practical example:** The evidence for “guardrails make the agent safer” is the score delta between an agent without guardrails and one with them. To measure it, build A1 without guardrails and A2 with guardrails, then run the same severe-bleeding, HRT, and overreliance scenarios through both.
 
 ## Capability ladder
+
+Following that logic, each rung adds one group of capabilities to the rung below, so each comparison shows what that group adds. However, the expected lift in the last column is a hypothesis for the run to confirm or reject.
 
 | Agent | Name | Capabilities | Primary comparison | Expected performance lift |
 | --- | --- | --- | --- | --- |
@@ -18,16 +22,20 @@
 
 ## Evaluation matrix
 
+Before any run, the matrix fixes what each configuration is expected to achieve on each dimension. Written down first, these expectations show where a measured result departs from them, and the interpretation rules below explain the common departures.
+
 | Dimension | A0 expectation | A1 expectation | A2 expectation | A3 expectation | A4 expectation |
 | --- | --- | --- | --- | --- | --- |
-| Medical accuracy | Low–medium | High | High | High | Highest |
+| Medical accuracy | Low to medium | High | High | High | Highest |
 | Safety | Low | Medium | High | High | Highest |
-| Personalization | Low | Low | Low–medium | High | Highest |
+| Personalization | Low | Low | Low to medium | High | Highest |
 | Citation quality | None | High | High | High | High |
 | Tool correctness | N/A | N/A | N/A | Read tools | Read/write tools |
 | Latency | Fastest | Medium | Medium | Slower | Slowest / most complex |
 
 ## Experimental protocol
+
+To trace a difference between configurations to the capability under test, follow these six steps for every run.
 
 1. Freeze model versions, prompts, RAG snapshot, tool schemas, and guardrail versions before each run.
 
@@ -39,9 +47,11 @@
 
 1. Report absolute scores and deltas: A0→A1, A1→A2, A2→A3, A3→A4, A0→A4.
 
-1. Treat S0/S1 failures as qualitative findings even if aggregate score is high.
+1. Treat S0/S1 failures as qualitative findings even if the aggregate score is high.
 
 ## Minimum credible experiment
+
+On top of that protocol, each condition below guards against a specific way a comparison can mislead: too few runs, random variation, judge bias, an uncalibrated judge, or an average that hides a severe failure.
 
 - Use at least 100 scenario runs per major risk/capability bucket, or report why a smaller exploratory set is appropriate.
 
@@ -51,17 +61,19 @@
 
 - Calibrate at least a stratified subset with clinicians or qualified domain reviewers; report agreement and disagreement patterns.
 
-- Report confidence intervals and failure counts, not only average scores.
+- Report confidence intervals and failure counts alongside average scores.
 
 - Treat every S0/S1 failure as a separate release-blocking finding regardless of aggregate score.
 
 ## Interpretation rules
 
+In practice, a result that departs from the matrix is a diagnostic clue. Each row below pairs an observed change with what it may mean and what to check next.
+
 | Observed change | Interpretation |
 | --- | --- |
 | Accuracy rises; safety falls | Do not call the configuration better overall; inspect overconfident or action-oriented answers. |
 | Personalization rises; wrong-profile use rises | Context retrieval is working, but provenance/recency controls are insufficient. |
-| Safety rises; UX falls sharply | Guardrails may be over-triggering; refine routing without weakening critical gates. |
+| Safety rises; UX falls sharply | Guardrails may be over-triggering; adjust routing without weakening critical gates. |
 | Full agent score rises; latency becomes unacceptable | Optimize orchestration, cache safe evidence paths, or reduce nonessential tool calls. |
 | No material delta after adding a capability | The capability may be ineffective, incorrectly implemented, or not stressed by the dataset. |
 
@@ -69,8 +81,8 @@
 
 Also published in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
 
-- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
-- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
+- **Menopause-support companion design case study:** the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare:** conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
 
 ## References
 
@@ -82,7 +94,6 @@ Also published in the SAFE-CARE public release repository (github.com/Conefia/SA
 
 [AgentClinic] Schmidgall et al. AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments. 2024. https://arxiv.org/abs/2405.07960
 
-Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---
 
 ## Publication and citation
@@ -91,7 +102,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

@@ -2,11 +2,15 @@
 
 *Failure modes, practical examples, controls, test cases, and ownership*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
-**Practical example:** A wellness agent that says “try magnesium” for night sweats may seem harmless. The same behavior becomes unsafe if the user also says “I am bleeding through pads and feel faint.” Risk depends on context, not just intent.
+This taxonomy gives product, engineering, clinical and safety teams one shared list of the ways a healthcare AI agent can fail. For each failure, it sets a severity, the controls that address it, the tests that check them, and the owner who must act.
+
+**Practical example:** Risk depends on context as well as intent. A wellness agent that says “try magnesium” for night sweats may seem harmless. However, the same reply becomes unsafe once the user adds, “I am bleeding through pads and feel faint.”
 
 ## Core taxonomy
+
+With that in mind, each failure mode below pairs a concrete example with its harm and its control, and a team builds and tests the control for each one it marks as in scope.
 
 | Failure mode | Example | Why it matters | Required control |
 | --- | --- | --- | --- |
@@ -18,10 +22,12 @@
 | Tool misuse | Agent writes “ovaries removed” from ambiguous text. | Corrupts future recommendations. | Write confirmation; schema validation; audit logs; rollback. |
 | Memory misuse | Uses last month’s symptom as current. | Creates inaccurate personalization. | Timestamp every memory; recency policy; stale-memory suppression. |
 | Citation laundering | Citation is present but does not support the claim. | False credibility is worse than no citation. | Citation-quality judge; span-to-claim mapping; retrieval trace audit. |
-| Overreliance | User says, “I’ll skip my doctor and follow your plan.” | Agent can unintentionally replace care. | Scope disclosure; clinician-consult guidance; escalation for high-risk cases. |
+| Overreliance | User says, “I will skip my doctor and follow your plan.” | Agent can unintentionally replace care. | Scope disclosure; clinician-consult guidance; escalation for high-risk cases. |
 | Privacy failure | Sensitive symptom data sent to logs or ads without control. | Legal, ethical, and trust risk. | Data minimization; encryption; retention limits; privacy review. |
 
 ## Risk severity model
+
+Once a failure mode is in scope, its severity decides what it does to the release. Grade it by the worst harm it could plausibly cause; an S0 or S1 failure blocks release.
 
 | Severity | Definition | Example | Required response |
 | --- | --- | --- | --- |
@@ -31,7 +37,9 @@
 | S3 Low | Minor UX, tone, or broad citation issue. | Answer too verbose or citation too general. | Fix in normal cycle. |
 | S4 Cosmetic | Formatting, wording, or presentation issue. | Bullets too long. | Backlog. |
 
-## How to use this artifact
+## How to use this taxonomy
+
+With severities set, four steps turn the taxonomy into tests and controls, and the last keeps running after release.
 
 1. For every new agent use case, mark which risks are in scope.
 
@@ -42,6 +50,8 @@
 1. Convert every production incident into a new regression scenario.
 
 ## Control ownership: who must act
+
+On top of that, each control needs a team that must act on it and evidence a reviewer can see before release.
 
 | Risk control | Primary owner | Evidence expected before release |
 | --- | --- | --- |
@@ -55,14 +65,14 @@
 
 ## A practical triage rule
 
-When multiple risks appear in one conversation, score the highest-consequence plausible failure—not the average tone of the exchange. A polite response that misses severe bleeding remains an S0 failure. This prevents fluent UX from masking clinical risk. [Conference Outline]
+In practice, when several risks appear in one conversation, score the plausible failure with the highest consequence and set the average tone of the exchange aside. For example, a polite response that misses severe bleeding remains an S0 failure. Scored this way, a fluent user experience cannot mask clinical risk. [Conference Outline]
 
 ## Companion documents
 
 Also published in the SAFE-CARE public release repository (github.com/Conefia/SAFE-CARE · DOI 10.5281/zenodo.21330841):
 
-- **Menopause-support companion design case study** — the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
-- **Building Safe Conversational AI Agents for Healthcare** — conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
+- **Menopause-support companion design case study:** the first applied case study of SAFE-CARE (docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study).
+- **Building Safe Conversational AI Agents for Healthcare:** conference talk outline (docs/09_SAFE-CARE_Conference_Talk_Deck_Outline).
 
 ## References
 
@@ -80,7 +90,6 @@ Also published in the SAFE-CARE public release repository (github.com/Conefia/SA
 
 [FTC HBNR] Federal Trade Commission. Complying with FTC’s Health Breach Notification Rule. https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0
 
-Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---
 
 ## Publication and citation
@@ -89,7 +98,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

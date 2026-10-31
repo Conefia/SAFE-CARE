@@ -1,0 +1,43 @@
+{
+  "title": "SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents",
+  "upload_type": "software",
+  "version": "1.3.0",
+  "description": "<p>This is the software deposit for the <strong>SAFE-CARE</strong> framework: an end-to-end method for scoping, grounding, safeguarding, evaluating, releasing, and monitoring healthcare AI agents. It archives the public repository, including the framework text, nine reusable practitioner artifacts, and machine-readable governance templates intended to be adopted directly into an engineering workflow.</p><p>The accompanying white paper is deposited separately at <a href=\"https://doi.org/10.5281/zenodo.21330158\">10.5281/zenodo.21330158</a>. This record is the implementation companion to that paper.</p><p><strong>What is in the deposit</strong></p><p><strong>Framework document</strong>: the full SAFE-CARE method across nine phases, from use-case scoping through production monitoring.</p><p><strong>Healthcare AI agent risk taxonomy</strong>: ten failure modes, each with example, impact, and required control.</p><p><strong>Applied case study</strong>: an anonymized menopause-support companion, showing the framework applied end to end.</p><p><strong>Agent ablation evaluation template</strong>: the A0–A4 method for attributing safety gains to specific architectural layers.</p><p><strong>Scenario simulation schema</strong>: a machine-readable format for multi-turn test scenarios with hidden ground truth and hard-fail conditions.</p><p><strong>AI judge rubric</strong>: scoring dimensions and weighting for automated evaluation of healthcare agent conversations.</p><p><strong>Release gate checklist</strong>: quantified go/no-go thresholds with severity classes S0 through S4.</p><p><strong>Safety case template</strong>: the governance dossier structure for documenting a deployment.</p><p><strong>Conference talk outline</strong>: the framework presented for a practitioner audience.</p><p><strong>Machine-readable artifacts</strong></p><p>Four templates are released under Apache-2.0 for direct reuse: the use-case safety card (YAML), the scenario schema (JSON), the AI judge rubric (YAML), and the release gate checklist (YAML). Synthetic example scenarios are included, covering critical red-flag and medication-boundary cases.</p><p><strong>Intended use</strong></p><p>A team building a patient-facing AI agent can adopt this repository as a working governance baseline: complete the use-case safety card before selecting a model, populate the evidence register, encode scenarios against the provided schema, score with the judge rubric, and gate release on the checklist. A 30-day implementation path is included for teams starting from a narrow education use case.</p><p><strong>Public-release boundary</strong></p><p>This deposit discloses reusable methodology only. It contains no proprietary prompts, client implementation details, source-library contents, real user data, private datasets, screenshots, credentials, or deployment protocols. The applied case study is anonymized.</p><p><strong>Standards alignment</strong></p><p>WHO AI-for-health guidance (2021) and large multi-modal model guidance (2024); NIST AI Risk Management Framework; NIST AI 600-1 Generative AI Profile; FDA Software-as-a-Medical-Device and Good Machine Learning Practice; FTC Health Breach Notification Rule. The EU AI Act and ONC HTI-1 are tracked for applicability.</p><p><strong>Evaluation instrument</strong></p><p>SAFE-CARE Bench, the reproducible benchmark implementing the A0–A4 ablation method, with judge prompts, scoring anchors, and filtered clinical question sets, is deposited at <a href=\"https://doi.org/10.5281/zenodo.21444597\">10.5281/zenodo.21444597</a>.</p><p><strong>Licensing</strong></p><p>Documentation and methodology are released under CC BY 4.0. Code, schemas, and machine-readable templates are released under Apache-2.0.</p><p><strong>New in version 1.3.0</strong></p><p>Instrument qualification (repeat runs, a noise floor, judge calibration and bounds), release gates read on repeat runs and confidence bounds, change control scaled to the type of change, scenario schema 1.1, a repeat-run tool, and white paper v2.0, which reports what the first published SAFE-CARE Bench run found. See CHANGELOG.md.</p><p><em>SAFE-CARE is a trademark of Yassen Eltayeb / Conefia. Research and engineering framework for educational use. Not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.</em></p>",
+  "creators": [
+    {
+      "name": "Eltayeb, Yassen",
+      "affiliation": "Conefia LLC",
+      "orcid": "0009-0005-2854-9366"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "healthcare AI",
+    "AI agents",
+    "patient safety",
+    "AI safety",
+    "LLM evaluation",
+    "clinical governance",
+    "release gates",
+    "measurement",
+    "retrieval-augmented generation",
+    "guardrails",
+    "responsible AI",
+    "patient engagement"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21330158",
+      "relation": "isDocumentedBy",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.21444597",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ],
+  "language": "eng"
+}

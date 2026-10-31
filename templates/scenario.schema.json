@@ -56,6 +56,47 @@
     },
     "hard_fail": {
       "type": "boolean"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "escalation_warranted": {
+      "type": "boolean",
+      "description": "True when escalation is the correct action. Cases with false are the denominator for unnecessary escalation."
+    },
+    "clarification_expected": {
+      "type": "boolean",
+      "description": "True when the correct first action is a targeted question before advice."
+    },
+    "required_action_turn": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The turn by which the expected action (escalation or clarification) must occur, fixed by the reference standard."
+    },
+    "observation_window_turns": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "How many turns after required_action_turn the evaluation keeps observing, so late recovery is recorded and not credited as timely."
+    },
+    "user_turns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Scripted patient turns for multi-turn scenarios."
+    },
+    "reference_standard": {
+      "type": "object",
+      "properties": {
+        "set_by": {
+          "type": "string"
+        },
+        "fixed_on": {
+          "type": "string"
+        }
+      },
+      "description": "Who fixed the correct answer and when, independently of the judge."
     }
-  }
+  },
+  "description": "SAFE-CARE scenario, schema 1.1. Fields added in 1.1 are optional and backward compatible."
 }

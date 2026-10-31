@@ -3,7 +3,7 @@
 <text x='80' y='150' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='14' font-weight='700' letter-spacing='3' fill='#DBFE01'>CONEFIA · SAFE HEALTHCARE AI</text>
 <text x='78' y='240' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='92' font-weight='800'><tspan fill='#66F0FF'>SAFE</tspan><tspan fill='#93F5A3'>-CARE</tspan><tspan font-size='38' baseline-shift='super' fill='#DBFE01'>&#8482;</tspan></text>
 <text x='82' y='292' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='27' font-weight='600' fill='#DBFE01'>Designing &amp; evaluating safe healthcare AI agents</text>
-<text x='82' y='330' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' fill='#AEB8CD'>Healthcare AI safety is not a prompt. It is an operating system.</text>
+<text x='82' y='330' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='21' fill='#AEB8CD'>Healthcare AI safety is an operating system built around the model.</text>
 <rect x='82' y='372' width='128' height='92' rx='16' fill='#66F0FF'/>
 <text x='146.0' y='435' font-family='Poppins, Helvetica, Arial, sans-serif' font-size='50' font-weight='800' fill='#141822' text-anchor='middle'>S</text>
 <rect x='226' y='372' width='128' height='92' rx='16' fill='#66F0FF'/>

@@ -2,39 +2,41 @@
 
 *Building Safe Conversational AI Agents for Healthcare*
 
-*SAFE-CARE Framework — authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
+*SAFE-CARE Framework · authored by Yassen Eltayeb, Conefia · Version 1.2.0 · July 2026*
 
-Talk promise: Attendees should leave with one idea they can repeat: healthcare AI safety is not a prompt; it is an operating system.
+Talk promise: healthcare AI safety is an operating system, and a prompt is one small part of it. That is the one idea attendees should leave able to repeat.
 
 ## Audience and talk goal
 
 Audience: healthcare founders, product leaders, clinicians, digital health operators, AI engineers, and innovation teams.
 
-Goal: establish founder-led credibility by showing a practical, reusable framework for building safe healthcare AI agents, grounded in the companion as a real applied case study. [Case Study]
+Goal: with that audience in mind, establish founder-led credibility by showing a practical, reusable framework for building safe healthcare AI agents, grounded in the menopause-support companion as a real applied case study. [Case Study]
 
 ## Deck outline
 
+The 20 slides run from an unsafe fluent answer, through the eight principles, to release gates.
+
 | Slide | Title | Content / visual idea | Speaker takeaway |
 | --- | --- | --- | --- |
-| 1 | Cold open: the dangerous “good answer” | Tell the heavy bleeding + dizziness example. Show that a fluent answer can be unsafe if it misses escalation. | A safe healthcare agent must optimize for risk before helpfulness. |
-| 2 | The care gap between visits | Patients need support, education, and guidance outside visits; clinics face staff capacity and follow-up burden. [Conference Outline] | This is why healthcare needs agents. |
-| 3 | Where agents create value | Education, care navigation, adherence, follow-up, chronic disease support, menopause support, engagement. | Agents are operational infrastructure, not just chat. |
-| 4 | Why many agents fail | Hallucinations, unsafe advice, missing escalation, lack of personalization, overreliance. [Conference Outline] | These failures are predictable and testable. |
-| 5 | The shift: chatbot -> governed agent system | Show the model/evidence/safety/tools/memory/evaluation/governance stack. | Do not ship a chatbot. Ship a system. |
-| 6 | Introduce SAFE-CARE | Scope, Anchor, Fence, Evaluate, Contextualize, Act, Route, Evidence. | A memorable framework for safe healthcare agents. |
+| 1 | Cold open: a fluent “good answer” can be dangerous | Tell the heavy bleeding + dizziness example. Show that a fluent answer can be unsafe if it misses escalation. | A safe healthcare agent must optimize for risk before helpfulness. |
+| 2 | Patients need support between visits | Patients need support, education, and guidance outside visits; clinics face staff capacity and follow-up burden. [Conference Outline] | This is why healthcare needs agents. |
+| 3 | Agents create value across care | Education, care navigation, adherence, follow-up, chronic disease support, menopause support, engagement. | Agents are operational infrastructure beyond chat. |
+| 4 | Many agents fail in five predictable ways | Hallucinations, unsafe advice, missing escalation, lack of personalization, overreliance. [Conference Outline] | Even so, these failures are predictable and testable. |
+| 5 | Shift from a chatbot to a governed agent system | Show the model/evidence/safety/tools/memory/evaluation/governance stack. | With that in mind, ship the whole governed system around the model. |
+| 6 | SAFE-CARE names eight design principles | Scope, Anchor, Fence, Evaluate, Contextualize, Act, Route, Evidence. | A memorable framework for safe healthcare agents. |
 | 7 | Scope: define what the agent will not do | Example: the companion educates and personalizes but does not prescribe HRT or diagnose with certainty. | Safety starts with claims. |
-| 8 | Anchor: approved evidence and citations | RAG + clinician-approved library + citation support checks. | Credibility requires traceability. |
-| 9 | Fence: guardrails at every layer | Input, output, retrieval, tool, memory, monitoring guardrails. | One safety prompt is not enough. |
-| 10 | Evaluate: simulation before release | Show scenario schema and A0–A4 ablation ladder. | You cannot improve what you do not measure. |
-| 11 | Contextualize: safe personalization | Use profile, active symptoms, triggers, stage, memory — but label known vs inferred vs predicted. | Personalization creates value and risk. |
-| 12 | Act: governed tools | Read profile, read symptoms, update profile, log symptom, schedule reminder; confirmations and audit logs. | Agents that act need contracts. |
-| 13 | Route: risk to humans | Severe symptoms, crisis, medication danger, contraindication uncertainty. | The safest agent knows when to stop. |
-| 14 | Evidence: governance dossier | Safety cards, model cards, prompt registry, tool registry, evaluation report, incident response. | Trust requires artifacts. |
-| 15 | The companion case study | Menopause companion: RAG, citations, progressive profiling, stage prediction, app tools, time-series memory. | A practical example of SAFE-CARE in action. |
-| 16 | The evaluation ladder | A0 baseline, A1 RAG, A2 guardrails, A3 personalization, A4 full agentic companion. | Ablations turn design choices into evidence. |
-| 17 | Release gates | S0 critical must pass 100%; aggregate scores cannot hide catastrophic failures. | Good enough is not safe enough for critical scenarios. |
-| 18 | What founders should publish | Framework, risk taxonomy, case study, templates, scenario schema, rubric, release gates. | Open-sourcing process builds credibility. |
-| 19 | Closing line | Healthcare AI safety is not a prompt. It is an operating system. | Repeatable takeaway. |
+| 8 | Anchor: every claim traces to approved evidence | RAG + clinician-approved library + citation support checks. | Credibility requires traceability. |
+| 9 | Fence: put guardrails at every layer | Input, output, retrieval, tool, memory, monitoring guardrails. | In other words, one safety prompt is not enough. |
+| 10 | Evaluate: test in simulation before release | Show scenario schema and A0–A4 ablation ladder. | Simulation shows what each layer changes before release. |
+| 11 | Contextualize: personalize, and label what is inferred | Use profile, active symptoms, triggers, stage, and memory, but label known vs inferred vs predicted. | Personalization creates value and risk. |
+| 12 | Act: every tool runs under a contract | Read profile, read symptoms, update profile, log symptom, schedule reminder; confirmations and audit logs. | Agents that act need contracts. |
+| 13 | Route: send risk to humans | Severe symptoms, crisis, medication danger, contraindication uncertainty. | The safest agent knows when to stop. |
+| 14 | Evidence: keep a governance dossier | Safety cards, model cards, prompt registry, tool registry, evaluation report, incident response. | Trust requires artifacts. |
+| 15 | Case study: the menopause companion | Menopause companion: RAG, citations, progressive profiling, stage prediction, app tools, time-series memory. | A practical example of SAFE-CARE in action. |
+| 16 | The A0–A4 ladder shows what each layer adds | A0 baseline, A1 RAG, A2 guardrails, A3 personalization, A4 full agentic companion. | Ablations turn design choices into evidence. |
+| 17 | Release gates stop averages from hiding critical failures | S0 critical must pass 100%, across all K repeat runs in v1.3.0; aggregate scores cannot hide catastrophic failures. | Good enough is not safe enough for critical scenarios. |
+| 18 | Founders should publish their safety process | Framework, risk taxonomy, case study, templates, scenario schema, rubric, release gates. | Open-sourcing process builds credibility. |
+| 19 | Close: healthcare AI safety is an operating system | Healthcare AI safety is an operating system, and a prompt is one small part of it. | Repeatable takeaway. |
 | 20 | Q&A | Invite discussion around use cases, risk levels, and evaluation design. | Move from demo culture to safety culture. |
 
 ## Suggested visual system
@@ -51,13 +53,15 @@ Goal: establish founder-led credibility by showing a practical, reusable framewo
 
 ## Conference abstract
 
-Healthcare organizations need scalable support between visits, but generic AI agents can hallucinate, provide unsafe advice, miss escalation, lack personalization, or encourage overreliance. In this talk, Yassen Eltayeb introduces SAFE-CARE, a practical framework for building safe healthcare AI agents. Drawing from the the companion menopause companion case study, the talk explains how to combine clinician-approved RAG, safety guardrails, progressive profiling, app-integrated tools, time-series memory, simulation-based evaluation, AI judges, clinician review, release gates, and production monitoring into a credible end-to-end agent design process.
+Healthcare organizations need scalable support between visits, but generic AI agents can hallucinate, provide unsafe advice, miss escalation, lack personalization, or encourage overreliance. To that end, Yassen Eltayeb's talk introduces SAFE-CARE, a practical framework for building safe healthcare AI agents. Drawing on the menopause-support companion case study, the talk explains how to build a credible end-to-end agent design process. That process combines clinician-approved RAG, safety guardrails, progressive profiling, app-integrated tools, time-series memory, simulation-based evaluation, AI judges, clinician review, release gates, and production monitoring.
 
 ## Live demonstration storyboard
 
+The demo follows one severe-symptom message through six beats, one layer at a time.
+
 | Beat | What the audience sees | Teaching point |
 | --- | --- | --- |
-| 1. Generic answer | A fluent baseline answers a severe-symptom message as ordinary education | Fluency is not safety |
+| 1. Generic answer | A fluent baseline answers a severe-symptom message as ordinary education | A fluent answer can still be unsafe |
 | 2. Grounded answer | RAG adds evidence and citations but still may miss escalation | Grounding solves only one failure class |
 | 3. Guarded answer | Safety layer detects red flags and routes to urgent care | Escalation must override normal conversation |
 | 4. Personalized answer | Agent uses confirmed symptoms/history and asks one missing question | Personalization should reduce burden without inventing facts |
@@ -66,7 +70,7 @@ Healthcare organizations need scalable support between visits, but generic AI ag
 
 ## Audience takeaway card
 
-Before connecting a model to a patient conversation, answer five questions: What is it allowed to do? What evidence supports its claims? What makes it stop or escalate? How will we test the risky cases? Who owns failures after launch?
+In short, answer five questions before connecting a model to a patient conversation: What is it allowed to do? What evidence supports its claims? What makes it stop or escalate? How will we test the risky cases? Who owns failures after launch?
 
 ## References
 
@@ -84,7 +88,6 @@ Before connecting a model to a patient conversation, answer five questions: What
 
 [HealthBench] Arora et al. HealthBench: Evaluating Large Language Models Towards Improved Human Health. 2025. https://arxiv.org/abs/2505.08775
 
-Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.
 ---
 
 ## Publication and citation
@@ -93,7 +96,7 @@ Public framework for educational and engineering use. It is not medical, legal, 
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
 - **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
-- **Trademark:** SAFE-CARE™ is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
+- **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

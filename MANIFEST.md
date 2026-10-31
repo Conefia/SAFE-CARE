@@ -4,6 +4,7 @@ Version 1.3.0 · October 2026. Every file in the release, generated from the rep
 
 - `.github/ISSUE_TEMPLATE/safety-report.yml`
 - `.github/PULL_REQUEST_TEMPLATE.md`
+- `.gitignore`
 - `.zenodo.json`
 - `CHANGELOG.md`
 - `CITATION.cff`
@@ -58,35 +59,51 @@ Version 1.3.0 · October 2026. Every file in the release, generated from the rep
 - `assets/operating-model.svg`
 - `assets/social-preview.png`
 - `assets/social-preview.svg`
+- `docs/01_SAFE-CARE_One_Pager.md`
 - `docs/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.md`
+- `docs/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.md`
 - `docs/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.md`
 - `docs/05_SAFE-CARE_Scenario_Simulation_Schema.md`
 - `docs/06_SAFE-CARE_AI_Judge_Rubric_for_Healthcare_Agents.md`
 - `docs/07_SAFE-CARE_Release_Gate_Checklist.md`
-- `docs/10_SAFE-CARE_Instrument_Qualification.md` — noise floor, judge calibration, bounds and library size (new in 1.3.0).
-- `docs/11_SAFE-CARE_Change_Control.md` — re-testing scaled to the type of change (new in 1.3.0).
+- `docs/08_SAFE-CARE_Healthcare_AI_Agent_Safety_Case_Template.md`
+- `docs/09_SAFE-CARE_Conference_Talk_Deck_Outline.md`
+- `docs/10_SAFE-CARE_Instrument_Qualification.md`: noise floor, judge calibration, bounds and library size (new in 1.3.0).
+- `docs/11_SAFE-CARE_Change_Control.md`: re-testing scaled to the type of change (new in 1.3.0).
 - `docs/SAFE-CARE_Framework.md`
 - `examples/clarification_needed_scenario.json`
 - `examples/critical_red_flag_scenario.json`
 - `examples/medication_boundary_scenario.json`
 - `examples/no_escalation_scenario.json`
+- `release_assets/docx/01_SAFE-CARE_One_Pager.docx`
+- `release_assets/docx/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.docx`
+- `release_assets/docx/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.docx`
+- `release_assets/docx/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.docx`
 - `release_assets/docx/05_SAFE-CARE_Scenario_Simulation_Schema.docx`
 - `release_assets/docx/06_SAFE-CARE_AI_Judge_Rubric_for_Healthcare_Agents.docx`
 - `release_assets/docx/07_SAFE-CARE_Release_Gate_Checklist.docx`
+- `release_assets/docx/08_SAFE-CARE_Healthcare_AI_Agent_Safety_Case_Template.docx`
+- `release_assets/docx/09_SAFE-CARE_Conference_Talk_Deck_Outline.docx`
 - `release_assets/docx/10_SAFE-CARE_Instrument_Qualification.docx`
 - `release_assets/docx/11_SAFE-CARE_Change_Control.docx`
-- `release_assets/docx/SAFE-CARE_Framework_White_Paper.docx` — white paper v2.0.
+- `release_assets/docx/SAFE-CARE_Framework_White_Paper.docx`: white paper v2.0.
+- `release_assets/pdf/01_SAFE-CARE_One_Pager.pdf`
+- `release_assets/pdf/02_SAFE-CARE_Healthcare_AI_Agent_Risk_Taxonomy.pdf`
+- `release_assets/pdf/03_SAFE-CARE_Menopause-Support_Companion_Case_Study.pdf`
+- `release_assets/pdf/04_SAFE-CARE_Agent_Ablation_Evaluation_Template.pdf`
 - `release_assets/pdf/05_SAFE-CARE_Scenario_Simulation_Schema.pdf`
 - `release_assets/pdf/06_SAFE-CARE_AI_Judge_Rubric_for_Healthcare_Agents.pdf`
 - `release_assets/pdf/07_SAFE-CARE_Release_Gate_Checklist.pdf`
+- `release_assets/pdf/08_SAFE-CARE_Healthcare_AI_Agent_Safety_Case_Template.pdf`
+- `release_assets/pdf/09_SAFE-CARE_Conference_Talk_Deck_Outline.pdf`
 - `release_assets/pdf/10_SAFE-CARE_Instrument_Qualification.pdf`
 - `release_assets/pdf/11_SAFE-CARE_Change_Control.pdf`
-- `release_assets/pdf/SAFE-CARE_Framework_White_Paper.pdf` — white paper v2.0.
+- `release_assets/pdf/SAFE-CARE_Framework_White_Paper.pdf`: white paper v2.0.
 - `templates/ai_judge_rubric.yaml`
 - `templates/change_control_map.yaml`
 - `templates/instrument_qualification.yaml`
 - `templates/release_gate_checklist.yaml`
 - `templates/scenario.schema.json`
 - `templates/use_case_safety_card.yaml`
-- `tools/repeat_run_floor.py` — repeat-run tool (new in 1.3.0).
+- `tools/repeat_run_floor.py`: repeat-run tool (new in 1.3.0).
 - `tools/tests/test_repeat_run_floor.py`

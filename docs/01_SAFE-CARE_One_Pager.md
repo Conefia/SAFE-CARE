@@ -53,7 +53,7 @@ These companion documents sit alongside this overview in the SAFE-CARE public re
 - **Publisher:** Conefia LLC.
 - **Version:** 1.2.0 · July 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
-- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
+- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents*. Conefia LLC. DOI: https://doi.org/10.5281/zenodo.21330841.
 - **Trademark:** SAFE-CARE is a claimed unregistered trademark used by Conefia LLC in connection with its healthcare-AI framework and related services.
 - **Copyright:** © 2026 Yassen Eltayeb.
 

@@ -67,7 +67,7 @@ Finally, the change record lets a reviewer trace each release decision back to i
 - **Author:** Yassen Eltayeb.
 - **Version:** 1.3.0 · October 2026.
 - **License:** CC BY 4.0 for documents; Apache-2.0 for code and reusable machine-readable templates.
-- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents*. Conefia. DOI: https://doi.org/10.5281/zenodo.21330841.
+- **How to cite:** Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents*. Conefia LLC. DOI: https://doi.org/10.5281/zenodo.21330841.
 - **Copyright:** © 2026 Yassen Eltayeb.
 
 > Public framework for educational and engineering use. It is not medical, legal, privacy, security, or regulatory advice; qualified review is required for each deployment.

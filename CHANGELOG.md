@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- The citation title now matches white paper v2.0: "SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents". It is updated in `CITATION.cff`, `.zenodo.json`, `NOTICE.md`, the README and every document's "How to cite" line, with Conefia LLC as publisher.
+- `MANIFEST.md` now lists every file in the repository (105 files).
+- The Zenodo deposit description in `.zenodo.json` is rewritten for v1.3.0 and links white paper v2.0 (10.5281/zenodo.23826804).
+
 ## v1.3.0 · October 2026
 
 This release adds the step that comes before every gate: qualifying the evaluation instrument. It draws on the author's public comment FDA-2026-N-7874-0091 and on lessons from repeat-run tests on patient-facing triage benchmarks.

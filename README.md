@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/social-preview.png" alt="SAFE-CARE: a framework for designing and evaluating safe healthcare AI agents" width="820">
+  <img src="assets/social-preview.png" alt="SAFE-CARE: a framework for designing, evaluating and releasing patient-facing healthcare AI agents" width="820">
 </p>
 
 <h1 align="center">SAFE-CARE&#8482;</h1>
@@ -145,7 +145,7 @@ The design case study is **anonymized and generalized**. Specifically, this repo
 
 If you use SAFE-CARE, please cite it (see [`CITATION.cff`](CITATION.cff)):
 
-> Eltayeb, Y. (2026). *SAFE-CARE: A Framework for Designing and Evaluating Safe Healthcare AI Agents.* Conefia. DOI: [10.5281/zenodo.21330841](https://doi.org/10.5281/zenodo.21330841).
+> Eltayeb, Y. (2026). *SAFE-CARE: A framework for designing, evaluating and releasing patient-facing healthcare AI agents.* Conefia LLC. DOI: [10.5281/zenodo.21330841](https://doi.org/10.5281/zenodo.21330841).
 
 ## License
 
